@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{02532F32
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tyuiu.AramaAG.Sprint0.Task0.V0", "Tyuiu.AramaAG.Sprint0.Task0.V0\Tyuiu.AramaAG.Sprint0.Task0.V0.vcxproj", "{67A9FF5D-5952-4A08-94B9-4C64FEB4B5D6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{D6A6162D-E61B-4171-B4F0-0EB2B9196E42}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tyuiu.AramaAG.Sprint0.Task1.V0", "Tyuiu.AramaAG.Sprint0.Task1.V0\Tyuiu.AramaAG.Sprint0.Task1.V0.vcxproj", "{7D4690D9-94D6-42DB-AAAC-257C4E25E7F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,12 +37,21 @@ Global
 		{67A9FF5D-5952-4A08-94B9-4C64FEB4B5D6}.Release|x64.Build.0 = Release|x64
 		{67A9FF5D-5952-4A08-94B9-4C64FEB4B5D6}.Release|x86.ActiveCfg = Release|Win32
 		{67A9FF5D-5952-4A08-94B9-4C64FEB4B5D6}.Release|x86.Build.0 = Release|Win32
+		{7D4690D9-94D6-42DB-AAAC-257C4E25E7F5}.Debug|x64.ActiveCfg = Debug|x64
+		{7D4690D9-94D6-42DB-AAAC-257C4E25E7F5}.Debug|x64.Build.0 = Debug|x64
+		{7D4690D9-94D6-42DB-AAAC-257C4E25E7F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{7D4690D9-94D6-42DB-AAAC-257C4E25E7F5}.Debug|x86.Build.0 = Debug|Win32
+		{7D4690D9-94D6-42DB-AAAC-257C4E25E7F5}.Release|x64.ActiveCfg = Release|x64
+		{7D4690D9-94D6-42DB-AAAC-257C4E25E7F5}.Release|x64.Build.0 = Release|x64
+		{7D4690D9-94D6-42DB-AAAC-257C4E25E7F5}.Release|x86.ActiveCfg = Release|Win32
+		{7D4690D9-94D6-42DB-AAAC-257C4E25E7F5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{67A9FF5D-5952-4A08-94B9-4C64FEB4B5D6} = {02532F32-7021-4619-9B6C-97A8476184E3}
+		{7D4690D9-94D6-42DB-AAAC-257C4E25E7F5} = {D6A6162D-E61B-4171-B4F0-0EB2B9196E42}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCBA47A8-950E-417D-B78C-D29D45BF237E}
