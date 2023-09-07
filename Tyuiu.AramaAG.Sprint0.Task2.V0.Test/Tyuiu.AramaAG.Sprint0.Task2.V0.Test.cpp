@@ -14,9 +14,8 @@ namespace UnitTest
 			ISprint0Task2V0* service = new Service();
 			int a1 = 11;
 			int a2 = 9;
-			int c;
-			c = service->Add(a1, a2);
-			Assert::AreEqual(20, a1 + a2);
+			int c = service->Add(a1, a2);
+			Assert::AreEqual(c, a1 + a2);
 		}
 
 		TEST_METHOD(TestMethod2)
@@ -25,7 +24,7 @@ namespace UnitTest
 			int a1 = 13;
 			int a2 = 7;
 			int c = service->Add(a1, a2);
-			Assert::AreEqual(20, a1 + a2);
+			Assert::AreEqual(c, a1 + a2);
 		}
 	};
 }
