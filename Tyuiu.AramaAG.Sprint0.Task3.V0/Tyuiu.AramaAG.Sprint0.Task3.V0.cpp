@@ -6,10 +6,10 @@
 using namespace std;
 int main()
 {
-    ISprint0Task3V0* service = new Service();
-    cout << "20 + 9 + 10 = " << service->Add(20, 9, 10) << "\n";
-    cout << "3 * 7 * 10 = " << service->Multiplication(3, 7, 10) << "\n";
-    cout << "11 * 9 * 10 = " << service->Multiplication(11, 9, 10);
+    ISprint0Task3* service = new Service1();
+    cout << "20 + 9 + 10 = " << service->SummV3(20, 9, 10) << "\n";
+    cout << "3 + 7 + 10 = " << service->SummV3(3, 7, 10) << "\n";
+    cout << "11 + 9 + 10 = " << service->SummV3(11, 9, 10);
 
 }
 
